@@ -23,10 +23,10 @@ import org.json.JSONTokener;
 public class RestApi {
 	private static final String LOGINURL = "https://login.salesforce.com";
 	private static final String GRANTTYPE = "/services/oauth2/token?grant_type=password";
-	private static final String CLIENTID = "3MVG9d8..z.hDcPJd79beDUygquVlPpvr8ZG_zBWOuCViMDt6MwmOXkoRq4Q7Bmj_fhErzrqT0REm_m0VYnIY";
-	private static final String CLIENTSECRET = "1463826778530438330";
-	private static final String USERID = "sapanranjan@vy.com";
-	private static final String PASSWORD = "aarush2014TALl1uGq51jYGuxMcRUtVx0rY";
+	private static final String CLIENTID = "<CLIENTID>";
+	private static final String CLIENTSECRET = "<CLIENTSECRET>";
+	private static final String USERID = "<USERID>";
+	private static final String PASSWORD = "<PASSWORD>";
 	// = “instance_url”
 	private static String API_VERSION = "/v32.0";
 	private static String REST_ENDPOINT = "/services/data";
